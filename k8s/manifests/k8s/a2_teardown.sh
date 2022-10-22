@@ -14,6 +14,6 @@ echo Deleting Backend Deployment!
 kubectl delete deploy backend
 
 echo Deleting Cluster!
-kind delete cluster --name a2-demo
+kind delete cluster --name kind-1
 
 echo Script Finished Running!

@@ -3,7 +3,7 @@ GR="\033[1;32m"
 GR1="\033[0;32m"
 YL="\033[0;33m"
 
-cname="a2-demo"
+cname="kind-1"
 
 function pauseMsg() {
   echo "${1}"
