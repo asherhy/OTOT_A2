@@ -54,7 +54,7 @@ kubectl -n $ns get deploy
 
 pauseMsg "\n${GR1}Press any key to create the image's ingress object.${NC}"
 
-echo "\n${GR}Creating ingress object of yusufaine/nodejs-app${NC}"
+echo "\n${GR}Creating ingress object ${NC}"
 kubectl apply -f nodejs-ingress-obj.yaml 
 
 echo "\n${YL}Waiting for nodejs-ingress-obj to be ready...${NC}"
